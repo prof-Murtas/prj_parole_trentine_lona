@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Il progetto e-Trentin: presentazione, fonti, abbreviazioni, indicazioni per la ricerca e come suggerire una parola." />
+  <title>Il Progetto | e-Trentin</title>
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏔</text></svg>" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="pagine-interne.css" />
+</head>
+<body>
+
+  <!-- NAVBAR (identica su tutte le pagine) -->
+  <nav id="navbar" role="navigation" aria-label="Navigazione principale">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo" aria-label="e-Trentin — torna alla home">
+        <span class="logo-title">e-Trentin</span>
+        <span class="logo-sub">Dizionario del dialetto</span>
+      </a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Apri menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-links" class="nav-links" role="menubar">
+        <li role="none"><a href="index.html"     role="menuitem">Home</a></li>
+        <li role="none"><a href="progetto.html"  role="menuitem" class="active">Il Progetto</a></li>
+        <li role="none"><a href="chi-siamo.html" role="menuitem">Chi Siamo</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <!-- HERO PAGINA -->
+  <header class="page-hero" role="banner">
+    <div class="container header-content">
+      <span class="page-hero-tag">e-Trentin</span>
+      <h1 class="page-hero-title">Il Progetto</h1>
+    </div>
+  </header>
+
+
+  <!-- CONTENUTO PRINCIPALE -->
+  <main id="main-content">
+    <div class="page-layout">
+
+        <!-- ── SIDEBAR NAVIGAZIONE INTERNA ── -->
+        <aside class="page-sidebar" aria-label="Sezioni della pagina">
+          <nav aria-label="Contenuto pagina">
+            <ul class="sidebar-nav">
+              <li><a href="#presentazione">Presentazione</a></li>
+              <li><a href="#fonti">Fonti</a></li>
+              <li><a href="#indicazioni">Indicazioni per la ricerca</a></li>
+              <li><a href="#abbreviazioni">Abbreviazioni</a></li>
+              <li><a href="#suggerisci-parola">Suggerisci una parola</a></li>
+              <li><a href="#admin" id="admin-link">Admin</a></li>
+            </ul>
+          </nav>
+        </aside>
+
+
+        <!-- ── CONTENUTO ── -->
+        <div class="page-content">
+
+          <!-- PRESENTAZIONE -->
+          <section id="presentazione" class="content-section" aria-labelledby="pres-title">
+            <h2 id="pres-title">
+              Presentazione
+            </h2>
+            <p>
+              Il progetto <strong>e-Trentin</strong> nasce dall'esigenza di documentare, conservare e rendere accessibile a tutti il ricco patrimonio lessicale del dialetto parlato a Trento e nel suo territorio. Il dialetto trentino, appartenente al gruppo dei dialetti settentrionali con forti influssi ladini e tedeschi, è un bene culturale vivo che merita di essere tramandato alle nuove generazioni.
+            </p>
+            <p>
+              Il dizionario raccoglie lemmi con definizioni, classificazioni grammaticali, note d'uso ed esempi di contesto, arricchiti ove possibile da registrazioni audio della pronuncia originale.
+            </p>
+            <div class="highlight-box">
+              <strong>La ricerca è bidirezionale:</strong> puoi cercare una parola in dialetto trentino per trovarne il significato in italiano, oppure partire dalla parola italiana per scoprire come si dice in trentino.
+            </div>
+          </section>
+
+
+          <!-- FONTI -->
+          <section id="fonti" class="content-section" aria-labelledby="fonti-title">
+            <h2 id="fonti-title">
+              Fonti
+            </h2>
+            <p>
+              Il vocabolario è stato compilato attingendo a diverse fonti storiche e contemporanee:
+            </p>
+            <ul style="list-style: disc; padding-left: 1.5rem; color: var(--clr-mid); line-height: 2;">
+              <li>Vocabolari e glossari dialettali trentini del XIX e XX secolo</li>
+              <li>Archivi linguistici e registrazioni di parlanti nativi anziani</li>
+              <li>Contributi diretti di parlanti della comunità trentina</li>
+              <li>Ricerche linguistiche dell'Università degli Studi di Trento</li>
+              <li>Documenti storici dell'Archivio Provinciale di Trento</li>
+            </ul>
+            <div class="highlight-box terracotta" style="margin-top:1.5rem;">
+              <strong>Nota:</strong> Alcune voci sono ancora in fase di verifica e catalogazione. Il dizionario è in continuo aggiornamento grazie ai contributi della comunità.
+            </div>
+          </section>
+
+
+          <!-- INDICAZIONI PER LA RICERCA -->
+          <section id="indicazioni" class="content-section" aria-labelledby="ind-title">
+            <h2 id="ind-title">
+              Indicazioni per la ricerca
+            </h2>
+            <p>
+              Per ottenere i migliori risultati, segui queste indicazioni:
+            </p>
+
+            <div class="highlight-box" style="margin-bottom:1rem;">
+              <strong>Ricerca da dialetto a italiano:</strong>
+              seleziona il pulsante <em>"Dialetto"</em> nella barra di ricerca, poi digita la parola trentina che vuoi cercare. Il sistema accetta anche ricerche parziali.
+            </div>
+
+            <div class="highlight-box" style="margin-bottom:1rem;">
+              <strong>Ricerca da italiano a dialetto:</strong>
+              seleziona il pulsante <em>"Italiano"</em> e digita la parola italiana. Il dizionario suggerirà tutti i corrispondenti in dialetto.
+            </div>
+
+            <div class="highlight-box">
+              <strong>Sfoglia per lettera:</strong>
+              usa la barra dell'alfabeto per visualizzare tutte le parole che iniziano con una determinata lettera.
+            </div>
+
+            <p style="margin-top:1.2rem;">
+              Puoi inoltre <strong>filtrare i risultati</strong> per categoria grammaticale usando il menu a tendina (sostantivi, verbi, avverbi, nomi propri…).
+            </p>
+          </section>
+
+
+          <!-- ABBREVIAZIONI -->
+          <section id="abbreviazioni" class="content-section" aria-labelledby="abbr-title">
+            <h2 id="abbr-title">
+              <span class="section-icon" aria-hidden="true"></span>
+              Abbreviazioni
+            </h2>
+            <p>Nella scheda di ogni parola vengono usate le seguenti abbreviazioni grammaticali:</p>
+
+            <table id="abbr-table" class="abbr-table" aria-label="Tabella abbreviazioni">
+              <thead>
+                <tr>
+                  <th scope="col">Sigla</th>
+                  <th scope="col">Significato</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>sm</td>   <td>Sostantivo maschile</td></tr>
+                <tr><td>sf</td>   <td>Sostantivo femminile</td></tr>
+                <tr><td>np</td>   <td>Nome proprio</td></tr>
+                <tr><td>vb</td>   <td>Verbo</td></tr>
+                <tr><td>avv</td>  <td>Avverbio</td></tr>
+                <tr><td>agg</td>  <td>Aggettivo</td></tr>
+                <tr><td>prep</td> <td>Preposizione</td></tr>
+                <tr><td>art</td>  <td>Articolo</td></tr>
+                <tr><td>pron</td> <td>Pronome</td></tr>
+                <tr><td>cong</td> <td>Congiunzione</td></tr>
+                <tr><td>inter</td><td>Interiezione</td></tr>
+                <tr><td>fig</td>  <td>Significato figurato</td></tr>
+                <tr><td>ant</td>  <td>Termine antico / desueto</td></tr>
+                <tr><td>dial</td> <td>Variante dialettale locale</td></tr>
+                <tr><td>lett</td> <td>Uso letterario</td></tr>
+                <tr><td>pop</td> <td>Uso popolare / colloquiale</td></tr>
+              </tbody>
+            </table>
+          </section>
+
+
+          <!-- SUGGERISCI UNA PAROLA -->
+          <section id="suggerisci-parola" class="content-section" aria-labelledby="sg-title">
+            <h2 id="sg-title">
+              Suggerisci una parola
+            </h2>
+            <p>
+              Conosci una parola del dialetto trentino che non è ancora nel dizionario? Aiutaci ad arricchirlo! Compila il modulo sottostante: la parola verrà valutata dai curatori prima di essere pubblicata.
+            </p>
+
+            <div class="suggest-form">
+              <form id="form-suggerisci" novalidate>
+                <div class="form-grid">
+
+                  <!-- Parola in dialetto -->
+                  <div class="form-field">
+                    <label for="sg-dialetto">Parola in dialetto <span style="color:var(--clr-terracotta)">*</span></label>
+                    <input type="text" id="sg-dialetto" name="dialetto" placeholder="es. ciapar" required />
+                  </div>
+
+                  <!-- Traduzione italiana -->
+                  <div class="form-field">
+                    <label for="sg-italiano">Traduzione italiana <span style="color:var(--clr-terracotta)">*</span></label>
+                    <input type="text" id="sg-italiano" name="italiano" placeholder="es. prendere" required />
+                  </div>
+
+                  <!-- Categoria -->
+                  <div class="form-field">
+                    <label for="sg-categoria">Categoria grammaticale</label>
+                    <select id="sg-categoria" name="categoria">
+                      <option value="">— Non so —</option>
+                      <option value="sm">sm — Sostantivo maschile</option>
+                      <option value="sf">sf — Sostantivo femminile</option>
+                      <option value="np">np — Nome proprio</option>
+                      <option value="vb">vb — Verbo</option>
+                      <option value="avv">avv — Avverbio</option>
+                      <option value="agg">agg — Aggettivo</option>
+                    </select>
+                  </div>
+
+                  <!-- Fonte / Riferimento -->
+                  <div class="form-field">
+                    <label for="sg-fonte">Fonte / Riferimento</label>
+                    <input type="text" id="sg-fonte" name="fonte" placeholder="es. mio nonno, libro X…" />
+                  </div>
+
+                  <!-- Definizione (a tutta larghezza) -->
+                  <div class="form-field span-full">
+                    <label for="sg-definizione">Definizione o nota d'uso</label>
+                    <textarea id="sg-definizione" name="definizione" rows="3"
+                      placeholder="Descrivi brevemente il significato, il contesto d'uso o fornisci un esempio…"></textarea>
+                  </div>
+
+                  <!-- Dati mittente -->
+                  <div class="form-field">
+                    <label for="sg-nome">Tuo nome (facoltativo)</label>
+                    <input type="text" id="sg-nome" name="nome" placeholder="Nome e cognome" />
+                  </div>
+
+                  <div class="form-field">
+                    <label for="sg-email">Tua email (facoltativa)</label>
+                    <input type="email" id="sg-email" name="email" placeholder="per ricevere aggiornamenti" />
+                  </div>
+
+                  <!-- Pulsante invio -->
+                  <div class="span-full" style="padding-top:.5rem;">
+                    <button type="submit" class="btn btn-primary">
+                      Invia la tua proposta
+                    </button>
+                    <p style="margin-top:.6rem; font-size:.78rem; color:var(--clr-light-text); font-style:italic;">
+                      I campi contrassegnati con * sono obbligatori. I dati vengono trattati secondo la normativa GDPR.
+                    </p>
+                  </div>
+
+                </div><!-- /.form-grid -->
+              </form>
+
+              <!-- Messaggio di conferma (mostrato da JS) -->
+              <div id="form-success" class="form-success" role="alert" aria-live="polite"></div>
+            </div>
+          </section>
+
+
+          <!-- ADMIN -->
+          <section id="admin" class="content-section" aria-labelledby="admin-title">
+            <h2 id="admin-title">
+              Area Amministratori
+            </h2>
+            <p>
+              Accesso riservato ai curatori e agli amministratori del dizionario per la gestione dei lemmi, la revisione dei suggerimenti e la pubblicazione di nuove voci.
+            </p>
+            <!-- Il click è gestito da progetto.js con richiesta password -->
+            <a href="#" class="admin-link-box" id="admin-link-btn" role="button">
+              Accedi al pannello admin
+            </a>
+          </section>
+
+        </div><!-- /.page-content -->
+      </div><!-- /.page-layout -->
+    </main>
+
+
+  <!-- FOOTER -->
+  <footer id="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Navigazione</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="progetto.html">Il Progetto</a></li>
+            <li><a href="chi-siamo.html">Chi Siamo</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Sezioni</h4>
+          <ul>
+            <li><a href="#presentazione">Presentazione</a></li>
+            <li><a href="#fonti">Fonti</a></li>
+            <li><a href="#abbreviazioni">Abbreviazioni</a></li>
+            <li><a href="#suggerisci-parola">Suggerisci una parola</a></li>
+          </ul>
+        </div>
+        <!-- Supporto -->
+        <div class="footer-col">
+          <h4>Con il supporto di</h4>
+          <div class="footer-logos">
+            <img src="Foto/logo3.png" alt="Logo 3" class="footer-logo">
+            <img src="Foto/logoBilingualism.png" alt="Logo Bilingualism" class="footer-logo">
+            <img src="Foto/logoBuonarroti.png" alt="Logo Buonarroti" class="footer-logo">
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <script>document.write(new Date().getFullYear())</script> e-Trentin — Ideazione: Alfredo Gonella</span>
+        <span>Consulenza linguistica: Patrizia Cordin</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- SCRIPT -->
+  <script src="main.js"></script>
+  <script src="progetto.js"></script>
+  <!-- Collega l'id corretto per admin -->
+  <script>
+    // Aggancia il click del link admin nella sidebar a quello del pulsante nel contenuto
+    const sidebarAdmin = document.querySelector('.sidebar-nav a[href="#admin"]');
+    const adminBtn     = document.getElementById('admin-link-btn');
+    if (sidebarAdmin && adminBtn) {
+      sidebarAdmin.addEventListener('click', (e) => {
+        e.preventDefault();
+        adminBtn.click();
+      });
+    }
+  </script>
+
+</body>
+</html>

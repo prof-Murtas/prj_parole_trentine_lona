@@ -38,3 +38,6 @@ Progetto realizzato da:
 
 ## Note
 Il progetto ha uno scopo puramente divulgativo della cultura della città di Trento.
+
+## Figma Link
+https://www.figma.com/design/yhY9XA2Hna8cvCVSJZq5nh/ProgettoParoleTretineLonaFigma?node-id=0-1&p=f&t=HcYJmgo5XKIvPmZ6-0
